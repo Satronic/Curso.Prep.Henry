@@ -1,0 +1,165 @@
+/*@media (min-width: 600px) {
+    .container-left {
+        float: left;
+        width: 25%;
+    }
+    .container-right {
+        margin-left: 25%;
+    }
+}*/
+@media (max-width: 600px) {
+    body {
+        font-size: 60%;
+        font-family: 'Segoe UI', sans-serif;
+    }
+}
+
+body {
+    background-image: url(tech.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    font-family: 'Segoe UI', sans-serif;
+}
+.container-main {
+    display: flex;
+    align-items: stretch;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 75%;
+    margin: 0 auto;
+}
+
+.flex-container-left {
+    background-color: #D4EFDF;
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+    width: 30%;
+}
+
+.flex-container-right {
+    background-color: #FCF3CF;
+    margin: 1%;
+    padding: 0.1%;
+    text-align: center;
+    width: 70%;
+}
+
+div{
+    padding: 0.5%;
+    margin: 2%;
+}
+
+img {
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid lightyellow;
+}
+
+h1 {
+    color: #fff;
+    background:#229954;
+    padding: 5%;
+}
+
+h1, h3 {
+    font-size: 120%;
+}
+
+hr{
+    border: 1px solid #229954;
+    background-color: #229954;
+}
+
+.right-h2 {
+    color: #fff;
+    background:#229954;
+    padding: 3%;
+    font-size: 100%;
+}
+
+.progress {
+    display: flex;
+    align-items: stretch;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.progress-label {
+    width: 35%;
+    margin: 1%;
+    padding: 0;
+}
+
+.progress-bar-1 {
+    /*border: 1px solid black;*/
+    background-color: darkcyan;
+    color: white;
+    width: 48%;
+    margin: 1%;
+    padding: 0;
+    text-align: center;
+}
+
+.progress-bar-2 {
+    /*border: 1px solid black;*/
+    background-color: darkcyan;
+    color: white;
+    width: 51%;
+    margin: 1%;
+    padding: 0;
+    text-align: center;
+}
+
+.progress-bar-3 {
+    /*border: 1px solid black;*/
+    background-color: darkcyan;
+    color: white;
+    width: 45%;
+    margin: 1%;
+    padding: 0;
+    text-align: center;
+}
+
+.progress-bar-4 {
+    /*border: 1px solid black;*/
+    background-color: darkcyan;
+    color: white;
+    width: 42%;
+    margin: 1%;
+    padding: 0;
+    text-align: center;
+}
+.progress-bar-5 {
+    /*border: 1px solid black;*/
+    background-color: darkcyan;
+    color: white;
+    width: 54%;
+    margin: 1%;
+    padding: 0;
+    text-align: center;
+}
+
+.p-1 {
+    padding: 1%;
+    margin: 2% 0 2% 0;
+    border: 2px solid #229954;
+}
+
+.p-2 {
+    padding: 0 0 0 5%;
+}
+
+p {
+    text-align: justify;
+    font-size: 100%;
+    padding: 0;
+}
+
+ul, .progress-label {
+    text-align: left;
+    margin-left: 5%;
+}
+
+

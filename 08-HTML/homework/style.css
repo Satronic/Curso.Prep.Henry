@@ -1,0 +1,49 @@
+body {
+    background-image: url('https://static3.depositphotos.com/1000528/261/i/600/depositphotos_2617879-stock-photo-field-of-green-fresh-grass.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    color: yellow
+}
+
+div {
+    margin: auto;
+    width: 75%;
+}
+
+h1 {
+    color:orangered;
+}
+
+h1, h3, h4 {
+    text-align: center;
+}
+
+img {
+    width: 400px;
+    margin: 10px;
+}
+
+#thridDiv {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #fff;
+    width: 500px;
+    height: 600px;
+    padding: 50px;
+    border: solid 3px black;
+    margin: 50px;
+    padding: 50px;
+    margin-bottom: 20px;
+}
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+    text-align: justify;
+}
+
+li {
+    display: inline-block;
+}
